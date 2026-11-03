@@ -1,0 +1,24 @@
+# 依赖与运行环境
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# 运行产物（都在 $DSH_HOME/pixiv-duty/ 下，仓库里不该出现）
+cache/
+out/
+tmp/
+*.log
+selfcheck-tmp/
+
+# 打包与系统文件
+*.zip
+*.7z
+.DS_Store
+Thumbs.db
+
+# 本地私有笔记 / 凭据，永远不要提交
+LOCAL-NOTES.md
+credential.json
+*.token
+.env
