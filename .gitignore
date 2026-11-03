@@ -10,6 +10,9 @@ out/
 tmp/
 *.log
 selfcheck-tmp/
+config.json
+state.json
+*.jsonl
 
 # 打包与系统文件
 *.zip
