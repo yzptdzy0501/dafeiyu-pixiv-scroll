@@ -5,10 +5,13 @@
 
 ## 这个仓库相对上游多了什么（v1.2.0）
 
-本仓库的代码底本是 **[`kuroshio4396/dafayu-pixiv-duty`](https://github.com/kuroshio4396/dafayu-pixiv-duty)**
-（大肥鱼的刷P插件，包名 `dsh-pixiv-scroll` 1.1.3），它又派生自
-[`c1overzz/dsh-pixiv-scroll`](https://github.com/c1overzz/dsh-pixiv-scroll)（MIT）。
-在它的基础上加了三样东西，其余行为保持原样（致谢见文末）：
+> 💡 **思路来源**：本插件（和它的评论版）的玩法来自大肥鱼的
+> [`kuroshio4396/dafayu-pixiv-duty`](https://github.com/kuroshio4396/dafayu-pixiv-duty)
+> ——「让 deepseek 自己上蓝P挑作品、看图、存下来」这件事是它先做出来的。
+> 它给的是**思路与章程写法**；**代码底本**是 [`c1overzz/dsh-pixiv-scroll`](https://github.com/c1overzz/dsh-pixiv-scroll)（MIT）。
+> 详见文末[依赖与致谢](#依赖与致谢)。
+
+在底本上又加了三样东西，其余行为保持原样：
 
 1. **单独评论任务** —— 不用等刷图轮，设置页点「现在评论一批」就能起一轮只做评论的子会话
    （找作品 → 看图 → 写一句评语），带「每次最多 / 每天最多」两道额度。
@@ -208,20 +211,20 @@ $DSH_HOME/pixiv-duty/
 ## 依赖与致谢
 
 - **[`kuroshio4396/dafayu-pixiv-duty`](https://github.com/kuroshio4396/dafayu-pixiv-duty)**（大肥鱼刷P插件）
-  —— **本插件的灵感来源与直接底本**。「让 deepseek 自己去刷蓝P」这套玩法、插件骨架
+  —— **思路来源**（不是代码底本）。「让 deepseek 自己去刷蓝P」这套玩法、插件该长什么形状
   （宿主半端 + headless 子会话 + 内置 Python MCP + 设置面板）、`prompts/duty.md` 章程的写法，
-  都来自这个项目，来自 B 站 UP 主 [阳炎级三番舰黑潮](https://space.bilibili.com/17568052) 的视频
+  都是从这里学的；源头是 B 站 UP 主 [阳炎级三番舰黑潮](https://space.bilibili.com/17568052) 的视频
   [《大肥鱼也要涩图自由！让 deepseek 自己刷蓝P的插件！》](https://www.bilibili.com/video/BV1eWnz6QEsT/)。
+- **[`c1overzz/dsh-pixiv-scroll`](https://github.com/c1overzz/dsh-pixiv-scroll)** —— **代码底本**（MIT）。
 - [pixivpy3](https://github.com/upbit/pixivpy)（App API 客户端）
 - `playwright-core`（只用于登录；复用系统 Edge/Chrome）
 - `Pillow`（缩图与解码校验）
 - 架构参考 [dsh-bili-scroll](https://github.com/c1overzz/dsh-bili-scroll)（MIT）
-- 原项目 [`c1overzz/dsh-pixiv-scroll`](https://github.com/c1overzz/dsh-pixiv-scroll)（MIT，上游 LICENSE 注明派生自它）
 
 如果上游作者对这里的改动方式有意见，请提 issue，我会立刻调整。
 
 ## 许可证
 
-MIT。派生自 [`kuroshio4396/dafayu-pixiv-duty`](https://github.com/kuroshio4396/dafayu-pixiv-duty)，
-后者派生自 [`c1overzz/dsh-pixiv-scroll`](https://github.com/c1overzz/dsh-pixiv-scroll)（原项目 MIT）。
+MIT。代码底本 [`c1overzz/dsh-pixiv-scroll`](https://github.com/c1overzz/dsh-pixiv-scroll)（原项目 MIT）；
+思路来源 [`kuroshio4396/dafayu-pixiv-duty`](https://github.com/kuroshio4396/dafayu-pixiv-duty)。
 保存内容仅供个人收藏，请遵守 Pixiv 的服务条款与各地法律。

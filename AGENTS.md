@@ -2,8 +2,10 @@
 
 `dsh-pixiv-scroll`（中文名「**刷Pixiv**」）：按用户口味刷 Pixiv，把**插画 / 漫画 / 中文小说**挑出来存到本地。
 
-直接底本是 [`kuroshio4396/dafayu-pixiv-duty`](https://github.com/kuroshio4396/dafayu-pixiv-duty)
-（详见 README「依赖与致谢」）；改代码时请保留那份致谢，别删。
+**思路来源**是 [`kuroshio4396/dafayu-pixiv-duty`](https://github.com/kuroshio4396/dafayu-pixiv-duty)
+（玩法与章程写法，**不是代码底本**）；**代码底本**是
+[`c1overzz/dsh-pixiv-scroll`](https://github.com/c1overzz/dsh-pixiv-scroll)（MIT）。
+详见 README「依赖与致谢」；改代码时请保留那份致谢，别删。
 
 ## 帮用户安装时，按这个顺序
 
