@@ -86,7 +86,7 @@
 - `lib/http.mjs` —— 设置页后端
 - `vendor/pixiv-mcp/` —— 内置 Python MCP（只做网络与字节；`px_comment.py` 管评语与精选）
 - `prompts/duty.md` —— 一轮章程（用户可改；升级不被覆盖）
-- `selfcheck.mjs` —— `node selfcheck.mjs`，73 项断言，退出码 0 才算过
+- `selfcheck.mjs` —— `node selfcheck.mjs`，116 项断言，退出码 0 才算过
 
 ## 约定
 
