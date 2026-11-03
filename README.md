@@ -5,10 +5,9 @@
 
 ## 这个仓库相对上游多了什么（v1.2.0）
 
-> 💡 **思路来源**：本插件（和它的评论版）的玩法来自大肥鱼的
+> 💡 **思路来源**与**代码底本**：本插件（和它的评论版专用）的玩法来自大肥鱼的
 > [`kuroshio4396/dafayu-pixiv-duty`](https://github.com/kuroshio4396/dafayu-pixiv-duty)
 > ——「让 deepseek 自己上蓝P挑作品、看图、存下来」这件事是它先做出来的。
-> 它给的是**思路与章程写法**；**代码底本**是 [`c1overzz/dsh-pixiv-scroll`](https://github.com/c1overzz/dsh-pixiv-scroll)（MIT）。
 > 详见文末[依赖与致谢](#依赖与致谢)。
 
 在底本上又加了三样东西，其余行为保持原样：
@@ -211,11 +210,10 @@ $DSH_HOME/pixiv-duty/
 ## 依赖与致谢
 
 - **[`kuroshio4396/dafayu-pixiv-duty`](https://github.com/kuroshio4396/dafayu-pixiv-duty)**（大肥鱼刷P插件）
-  —— **思路来源**（不是代码底本）。「让 deepseek 自己去刷蓝P」这套玩法、插件该长什么形状
+  —— **思路来源**和**代码底本**。「让 deepseek 自己去刷蓝P」这套玩法、插件该长什么形状
   （宿主半端 + headless 子会话 + 内置 Python MCP + 设置面板）、`prompts/duty.md` 章程的写法，
   都是从这里学的；源头是 B 站 UP 主 [阳炎级三番舰黑潮](https://space.bilibili.com/17568052) 的视频
   [《大肥鱼也要涩图自由！让 deepseek 自己刷蓝P的插件！》](https://www.bilibili.com/video/BV1eWnz6QEsT/)。
-- **[`c1overzz/dsh-pixiv-scroll`](https://github.com/c1overzz/dsh-pixiv-scroll)** —— **代码底本**（MIT）。
 - [pixivpy3](https://github.com/upbit/pixivpy)（App API 客户端）
 - `playwright-core`（只用于登录；复用系统 Edge/Chrome）
 - `Pillow`（缩图与解码校验）
@@ -225,6 +223,6 @@ $DSH_HOME/pixiv-duty/
 
 ## 许可证
 
-MIT。代码底本 [`c1overzz/dsh-pixiv-scroll`](https://github.com/c1overzz/dsh-pixiv-scroll)（原项目 MIT）；
-思路来源 [`kuroshio4396/dafayu-pixiv-duty`](https://github.com/kuroshio4396/dafayu-pixiv-duty)。
+MIT。
+代码底本与思路来源 [`kuroshio4396/dafayu-pixiv-duty`](https://github.com/kuroshio4396/dafayu-pixiv-duty)。
 保存内容仅供个人收藏，请遵守 Pixiv 的服务条款与各地法律。
